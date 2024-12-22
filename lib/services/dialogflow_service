@@ -1,0 +1,33 @@
+/*import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class DialogflowService {
+  final String _baseUrl = 'https://api.dialogflow.com/v1/query';
+  final String _accessToken = 'YOUR_DIALOGFLOW_ACCESS_TOKEN'; // Remplacez par votre token
+
+  Future<String> sendMessage(String message) async {
+    final response = await http.post(
+      Uri.parse(_baseUrl),
+      headers: {
+        'Authorization': 'Bearer $_accessToken',
+        'Content-Type': 'application/json',
+      },
+      body: jsonEncode({
+        'queryInput': {
+          'text': {
+            'text': message,
+            'languageCode': 'en',
+          }
+        }
+      }),
+    );
+
+    if (response.statusCode == 200) {
+      var data = jsonDecode(response.body);
+      return data['queryResult']['fulfillmentText']; // Récupère la réponse de Dialogflow
+    } else {
+      throw Exception('Failed to communicate with Dialogflow');
+    }
+  }
+}
+*/
