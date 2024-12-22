@@ -2,15 +2,16 @@
 Cette application Flutter est une solution complète de commerce électronique intégrée à Firebase, permettant la gestion des produits, des utilisateurs et des paniers d'achat. Elle propose une interface intuitive et fluide avec plusieurs fonctionnalités modernes adaptées au commerce en ligne.
 
 ##Fonctionnalités
+
 1.Gestion des Produits
 Affichage des produits : Consultation d'une liste d'articles avec images, tailles, prix et détails.
 Ajout de produits : Fonctionnalité pour ajouter de nouveaux vêtements à la base de données via un formulaire.
 Détails des produits : Affichage d'informations détaillées sur chaque produit.
 
 2.Panier
-Ajouter au panier : Possibilité d'ajouter des articles dans un panier personnalisé.
+Ajouter ou supprimer au panier : Possibilité d'ajouter des articles dans un panier personnalisé.
 Gestion des quantités : Mise à jour des quantités pour chaque article sélectionné.
-Notification : Confirmation des actions via des notifications utilisateur.
+
 
 3.Profil Utilisateur
 Gestion du profil : Consultation et mise à jour des informations personnelles de l'utilisateur connecté.
