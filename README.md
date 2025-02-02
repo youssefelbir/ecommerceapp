@@ -36,9 +36,5 @@ Interaction intelligente avec un chatbot : Implémentation d'un chatbot basé su
 Un exemple de code pour cette intégration est déjà inclus dans le projet (chat_screen.dart et dialogflow_service.dart), mais il nécessite des ajustements pour fonctionner correctement.
 Le chatbot utilise des modèles de traitement du langage naturel (NLP) pour des réponses plus adaptées.
 
-##Problèmes Connus
 
-1.Chatbot non fonctionnel : Bien que l'intégration de Dialogflow soit en place, des problèmes empêchent actuellement son fonctionnement. Une correction est en cours pour assurer la communication avec l'API Dialogflow et afficher les réponses dans l'application.
-
-2.Problème de connexion : Lors de la première connexion, il est nécessaire de cliquer sur le bouton Login, après quoi une erreur est affichée. Il faut ensuite saisir à nouveau le login et le mot de passe, et l'authentification fonctionne correctement. Le problème survient car l'interface se bloque si ces informations sont ajoutées dès le départ.
 
